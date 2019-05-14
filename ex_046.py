@@ -11,7 +11,7 @@ def posfloat(inp):
     i = None
     while i is None:
         try: i = float (input ('Enter {}:'.format(inp.lower())))
-        except: print(inp.capitalize(), 'must be an integer'); continue
+        except: print(inp.capitalize(), 'must be numeric'); continue
         if i <= 0: i = None; print(inp.capitalize(), 'must be greater than 0'); continue
     return i
 
