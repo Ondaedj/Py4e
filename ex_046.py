@@ -13,7 +13,7 @@ def posfloat(inp):
         try: i = float (input (inp))
         except: print(inp, 'must be an integer'); continue
         if i <= 0: i = None; print(inp, 'must b greater than 0'); continue
-        return i
+    return i
 
 
 # Receive hour and rate information
